@@ -1,0 +1,11 @@
+fastapi==0.95.0            # Фреймворк FastAPI для создания REST API
+uvicorn==0.18.0            # Сервер для запуска приложения FastAPI
+sqlalchemy==1.4.46         # ORM для работы с базой данных
+psycopg2-binary==2.9.3     # Драйвер для работы с PostgreSQL
+pydantic==1.10.2           # Валидация данных (входит в FastAPI)
+alembic==1.8.0             # Миграции базы данных для SQLAlchemy
+celery==5.1.2             # Библиотека для обработки фоновых задач
+pytesseract==0.3.9         # Библиотека для работы с Tesseract OCR
+Pillow==9.1.0              # Работа с изображениями (требуется для pytesseract)
+python-dotenv==0.19.2      # Загрузка переменных окружения из файла .env
+python-multipart
